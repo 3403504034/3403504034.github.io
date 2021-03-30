@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://godweiyang.com
+url: https://3403504034.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -113,8 +113,8 @@ theme: matery
 deploy:
 - type: git
   repository:
-    github: git@github.com:godweiyang/godweiyang.github.io.git
-    coding: git@e.coding.net:godweiyang/godweiyang.git
+    github: 
+    coding: 
   branch: master
 - type: baidu_url_submitter
 
@@ -138,8 +138,3 @@ live2d:
   react:
     opacity: 0.7
 
-baidu_url_submit:
-  count: 100
-  host: godweiyang.com
-  token: jp7MKvOw74Yh3F09
-  path: baidu_urls.txt
